@@ -1,8 +1,11 @@
 package main
 
-// import {
-// 	"github.com/sarmad1995/go-microservices-1/in"
-// }
+import (
+	"github.com/sarmad1995/mvc/app"
+)
+
+// Importing a nested package
+
 func main() {
-	StartApp()
+	app.StartApp()
 }
